@@ -7,6 +7,16 @@ const mockData = [
   { customer: "Customer B", status: "warning", errors: 3, latency: "5s" },
   { customer: "Customer C", status: "error", errors: 10, latency: "10s" },
   { customer: "Customer D", status: "success", errors: 0, latency: "1s" },
+  { customer: "Customer E", status: "success", errors: 0, latency: "3s" },
+  { customer: "Customer F", status: "warning", errors: 2, latency: "4s" },
+  { customer: "Customer G", status: "error", errors: 8, latency: "9s" },
+  { customer: "Customer H", status: "success", errors: 0, latency: "2s" },
+  { customer: "Customer I", status: "warning", errors: 1, latency: "6s" },
+  { customer: "Customer J", status: "error", errors: 5, latency: "7s" },
+  { customer: "Customer K", status: "success", errors: 0, latency: "1s" },
+  { customer: "Customer L", status: "warning", errors: 4, latency: "8s" },
+  { customer: "Customer M", status: "error", errors: 7, latency: "10s" },
+  { customer: "Customer N", status: "success", errors: 0, latency: "3s" },
 ];
 
 const getStatusColor = (status) => {
